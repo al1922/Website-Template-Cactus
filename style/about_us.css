@@ -1,0 +1,42 @@
+.about-us{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.tag-us{
+    font-size: 40px;
+    color: white;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.text-us-col{
+    background-color: #333333;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-us{
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 30px;
+    width: 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.picture-us{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}

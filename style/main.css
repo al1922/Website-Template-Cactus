@@ -1,0 +1,136 @@
+@import "nav.css"; 
+@import "shop.css"; 
+@import "about_us.css";
+/*@import "contact.css";*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+   
+}
+
+.contact-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-gap: 50px;
+}
+
+.contact-col{
+    background-color: #333333;
+
+}
+
+.contact-text-c, .contact-number-c, .contact-emial-c, .contact-c{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact-number-c, .contact-emial-c{
+    font-size: 25px;
+}
+
+.contact-c{
+    font-size: 40px;
+
+}
+
+.contact-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.contact-write{
+    background-color: #333333;
+
+}
+
+.contact-w{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact-in{
+    display: grid;
+    grid-template-columns: 0.8fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+
+}
+
+.contact-dis{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+.contact-name-w, .contact-emial-w, .contact-text-w{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    
+}
+.contact-text-w{
+    font-size: 15px;
+    padding: 10px;
+    height: 200px;
+    border-radius: none;
+    resize: none;
+
+}
+
+.contact-button{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contact-send-w{
+    border: none;
+    background-color: white;
+    color: #333333;
+    border-radius: 45px 45px 45px 45px;
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.2s background-color;
+    
+}
+
+.contact-send-w:hover{
+    background-color: #d3d3d3;
+}
+
